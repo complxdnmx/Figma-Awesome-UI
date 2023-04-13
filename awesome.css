@@ -5,14 +5,9 @@
 body {
     background-color: #FFFFFF;
     background: linear-gradient(180deg, rgba(253,243,230,1) 0%, rgba(255,255,255,1) 27%, rgba(254,249,242,1) 66%, rgba(255,255,255,1) 100%);
+    margin:0
 }
 
-.main-content-wrapper {
-    overflow: hidden;
-    background-image: url(img/Ellipse\ 119.svg);
-    background-repeat: no-repeat;
-    background-position: 0px 425px;
-}
 
 svg {
     display: block
@@ -38,11 +33,12 @@ h1, h2, h3, h4, h5, p {
 
 .button {
     display: inline-block;
-    background-image: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%);
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%);
     border-radius: 3px;
     padding: 10px 15px;
     text-align: center;
     color: rgb(254, 254, 254)
+    
 }
 
 .main-header-container {
@@ -50,12 +46,14 @@ h1, h2, h3, h4, h5, p {
 }
 
 .main-header-wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 140px;
-    padding-right: 140px;
+    max-width: 1440px;
+    width: 100%;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
     display: flex;
     justify-content: space-between;
 }
@@ -94,10 +92,16 @@ h1, h2, h3, h4, h5, p {
 /* MAIN CONTENT */
 
 .main-content-wrapper {
-    padding-left: 140px;
-    padding-right: 140px;
+    max-width: 1440px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+    background-image: url(img/Ellipse\ 119.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 425px;
 }
 
 .section-1 {
@@ -130,14 +134,15 @@ h1, h2, h3, h4, h5, p {
 }
 
 .button-big {
-    display: inline-block;
-    background-image:url(img/Vector.svg), linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%);
-    background-repeat: no-repeat;
-    background-position: 92%,center;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 300px;
+    align-items: center;
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%);
     border-radius: 3px;
-    padding: 27px 186px 26px 29px;
+    padding: 27px 26px 26px 29px;
     text-align:left;
-    
     font-family: 'Avenir Next';
     font-style: normal;
     font-weight: 600;
@@ -146,6 +151,10 @@ h1, h2, h3, h4, h5, p {
     letter-spacing: 0.155em;
     text-transform: uppercase;
     color: #FEFEFE;
+}
+
+.button-big::after {
+    content: url(img/Vector.svg);
 }
     
 .section-1-get-started h1 {
@@ -170,6 +179,7 @@ color: #4F4F4F;
 
 .section-2 {
     display: flex;
+    justify-content: space-between;
     gap: 100px;
     margin-bottom: 147px;
 }
@@ -178,7 +188,6 @@ color: #4F4F4F;
     width: 40%;
     display: flex;
     flex-direction: column;
-    align-items: left;
     gap: 20px;
     position: relative;
 }
@@ -405,13 +414,6 @@ color: #4F4F4F;
 }
 
 .section-4-hero-image {
-    width: 563px;
-    height: 545px;
-    background-color: transparent;
-    background-image: url(img/pexels-photo-3184338\ 1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     position: relative;
 }
 
@@ -440,12 +442,16 @@ color: #4F4F4F;
     margin-bottom: 50px;
 }
 
-.section-5 .slider-button svg {
+
+.section-5 .slider-button {
+    display: flex;
+    align-items: center;
+    gap: 40px;
     position: absolute;
-    right: -40px;
-    top: -28px;
-    
+    right:2px
 }
+
+
 
 .section-5-testimonials {
     display: grid;
@@ -497,10 +503,13 @@ color: #4F4F4F;
 .main-footer-wrapper {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 140px;
-    padding-right: 140px;
+    max-width: 1440px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1fr;
 }
@@ -601,7 +610,7 @@ textarea {
 }
 
 .button-big.button-submit {
-    padding: 21px 137px 21px 22px;
+    padding: 21px 21px 21px 22px;
     border-width: 0;
     font-size: 12.4055px;
     line-height: 16px;
