@@ -1,0 +1,608 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    background: linear-gradient(180deg, rgba(253,243,230,1) 0%, rgba(255,255,255,1) 27%, rgba(254,249,242,1) 66%, rgba(255,255,255,1) 100%);
+}
+
+.main-content-wrapper {
+    overflow: hidden;
+    background-image: url(img/Ellipse\ 119.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 425px;
+}
+
+svg {
+    display: block
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color:unset;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+.button {
+    display: inline-block;
+    background-image: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%);
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-align: center;
+    color: rgb(254, 254, 254)
+}
+
+.main-header-container {
+    background-color: transparent;
+}
+
+.main-header-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-family: Avenir Next;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-variant: small-caps;
+    font-feature-settings: 'liga' off;
+}
+
+.navigation-main ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navigation-main a {
+    padding: 10px 15px;
+   
+}
+
+/* MAIN CONTENT */
+
+.main-content-wrapper {
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 181px;
+}
+
+.section-1-get-started {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    position: relative;
+    left: 40px;
+    padding-top: 20px;
+    background-image: url(img/Ellipse\ 116.svg);
+    background-repeat: no-repeat;
+    background-position: 145px 0px
+    
+}
+
+.section-1-hero-image {
+    width: 50%;
+    height:585.91px;
+    background-image:url(img/Group\ 2574.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+}
+
+.button-big {
+    display: inline-block;
+    background-image:url(img/Vector.svg), linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%);
+    background-repeat: no-repeat;
+    background-position: 92%,center;
+    border-radius: 3px;
+    padding: 27px 186px 26px 29px;
+    text-align:left;
+    
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125.5%;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+    
+.section-1-get-started h1 {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    font-variant: small-caps;
+    color: #333333;
+}
+
+.section-1-get-started p {
+    font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.04em;
+color: #4F4F4F;
+}
+
+.section-2 {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 147px;
+}
+
+.section-2-get-started {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    position: relative;
+}
+
+.section-2-title-background {
+    width: 717px;
+    height: 153px;
+    background-image:linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+    position: absolute;
+    left: -300px;
+    top: -40px;
+    z-index: -1;
+}
+
+.section-2-get-started h3,
+.section-3-title h3,
+.section-4-get-started h3,
+.section-5-title h3 {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #F3B562;
+}
+
+.section-2-get-started h2,
+.section-3-title h2,
+.section-4-get-started h2,
+.section-5-title h2 {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #647B64;
+}
+.section-2-get-started p,
+.section-4-get-started p {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.section-2-services {
+    width: 50%;
+    display: grid;
+    grid-template-areas: 
+    "services-car-rental services-boat-cruise"
+    "services-bus-trip   services-road-trip";
+}
+
+.services-car-rental{
+    background: #FFFFFF;
+    box-shadow: 0px 5.87438px 31.33px rgba(155, 148, 148, 0.17);
+    border-radius: 8px;
+}
+
+.services-wrapper {
+    padding: 40px 40px;
+    display:flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.services-icon {
+    height: 48px;
+    width: 48px;
+    background-color: #647B64;
+    border-radius: 8px;
+    background-image: url(img/Icons/smart-car.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 28px 28px;
+}
+
+.services-icon.icon-boat {
+    background-color: #FFFFFF;
+    background-image: url(img/Icons/ship.svg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.services-icon.icon-bus-trip {
+    background-color: #FFFFFF;
+    background-image: url(img/Icons/bus.svg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.services-icon.icon-road-trip {
+    background-color: #FFFFFF;
+    background-image: url(img/Icons/driving.svg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.services-wrapper h4,
+.programs-wrapper h4 {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps;
+    color: #333333;
+}
+
+.services-wrapper p,
+.programs-wrapper p  {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.section-3 {
+    margin-bottom: 171px;
+    position: relative;
+}
+
+.section-3-design-element {
+    width: 463px;
+    height: 182px;
+    background-image:linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+    position: absolute;
+    bottom: -35px;
+    left: 150px;
+    z-index: -1;
+}
+
+.section-3-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 56px;
+}
+
+.section-3-programs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+}
+
+.programs-python,
+.programs-stx {
+    background-image: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    position: relative;
+}
+
+.python-background-image {
+    width: 214px;
+    height: 214px;
+    background-image: url(img/Dots\ 8px.1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -35px;
+    bottom: -40px;
+    z-index: -1
+}
+
+.programs-iost {
+    background-color: #647B64;
+    color:#FFFFFF;
+    border-radius: 8px;
+}
+
+.programs-wrapper {
+    padding: 78px 50px 72px 50px;
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    position: relative;
+}
+
+.programs-icon {
+    height: 64px;
+    width: 64px;
+    background-color:transparent;
+    background-image: url(img/Icons/python.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 54px 54px;
+}
+
+.programs-icon.icon-iost{
+    background-image: url(img/Icons/iost-\(iost\).svg);
+}
+
+.programs-icon.icon-stx {
+    background-image: url(img/Icons/stacks-\(stx\).svg);
+}
+
+.programs-iost .programs-wrapper h4,
+.programs-iost .programs-wrapper p {
+    color:#FFFFFF
+}
+
+.section-4 {
+    margin-bottom: 197px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+.section-4-get-started {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
+
+.section-4-hero-image {
+    width: 563px;
+    height: 545px;
+    background-color: transparent;
+    background-image: url(img/pexels-photo-3184338\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.section-4-hero-image::after {
+    content: "";
+    background-image: linear-gradient(197.92deg, rgba(239, 128, 49, 0) -227.37%, rgba(239, 128, 49, 0.15) 1.58%, rgba(239, 128, 49, 0) 103.02%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 60px;
+    bottom: -60px;
+    z-index: -1;
+}
+
+
+.section-5 {
+    margin-bottom: 172px;
+    position: relative;
+}
+
+.section-5-title {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 17px;
+    margin-bottom: 50px;
+}
+
+.section-5 .slider-button svg {
+    position: absolute;
+    right: -40px;
+    top: -28px;
+    
+}
+
+.section-5-testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+}
+
+.testimonials-wrapper img {
+    width:fit-content;
+    margin-bottom: 24px;
+}
+
+.section-5-testimonials .testimonial {
+    position: relative;
+    background-image: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%);
+    border-radius: 8px;
+}
+
+.testimonials-wrapper {
+    padding: 32px 60px 32px 40px;
+}
+
+.testimonials-wrapper h5 {
+    position:absolute;
+    left:190px;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-variant: small-caps;
+    color: #333333;
+}
+
+.testimonials-wrapper h5 .name {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+/* FOOOOTER!!! */
+
+.main-footer-container {
+    background-color: #F0DCC5;
+}
+
+.main-footer-wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 17px;
+}
+
+.footer-awesome-info {
+    margin-bottom: 19px;
+}
+
+.footer-awesome-info .info {
+    margin-bottom: 16px;
+}
+
+.footer-awesome-info .copyright {
+    margin-bottom: 8px;
+}
+
+.footer-awesome-info {
+    font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.04em;
+color: #4F4F4F;
+}
+
+.footer-company-title,
+.footer-support-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 17px;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #647B64;
+}
+
+.company-links,
+.support-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #333333;
+}
+
+.footer-social-links li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.footer-form-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #647B64;
+}
+
+
+textarea {
+    margin-bottom: 28px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border:none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #4F4F4F;
+
+}
+
+.button-big.button-submit {
+    padding: 21px 137px 21px 22px;
+    border-width: 0;
+    font-size: 12.4055px;
+    line-height: 16px;
+}
